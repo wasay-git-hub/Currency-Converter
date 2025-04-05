@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container2">
+            <h2>Currency Converter</h2>
+            <form>
+                <div class="amount">
+                    <p>Amount:</p>
+                    <input type="text" placeholder="Enter amount here">
+                </div>
+                <div class="fromandto">
+                    <div class="from">
+                        <p>From:</p>
+                        <img src="https://flagsapi.com/US/flat/64.png">
+                        <select class="currselect">
+                            <option selected>USD</option>
+                        </select>
+                    </div>
+                    <div class="to">
+                        <p>To:</p>
+                        <img src="https://flagsapi.com/PK/flat/64.png">
+                        <select class="currselect">
+                            <option selected>PKR</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="result">
+                    <p id="result">Enter an amount to get exchange rate</p>
+                </div>
+                <div class="button">
+                    <button>Convert</button>
+                </div>
+                
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

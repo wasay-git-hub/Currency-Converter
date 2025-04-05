@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: palegoldenrod;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.container2 {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 1rem;
+}
+
+input, select{
+    outline: 0;
+}
+
+input {
+    border-radius: 0.5rem;
+    width: 300px;
+    height: 30px;
+    border-color: gray;
+}
+.amount {
+    font-size: large;
+    padding: 15px 0 15px 0;
+}
+
+.from, .to{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    border-color: gray;
+    border-radius: 0.5rem;
+}
+
+.fromandto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 0 15px 0;
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+select {
+    background-color: #fff;
+    border-color: gray;
+    border-radius: 0.25rem;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+button {
+    width: 200px;
+    height: 30px;
+    background-color: purple;
+    color: #fff;
+    border-radius: 0.5rem;
+}
+
+#result {
+    text-align: center;
+}
+
+.result {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
